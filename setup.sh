@@ -44,6 +44,7 @@ cd /source \
 && cd apache-tomcat-9.0.30 \
 && cp -R * /opt/tomcat9/ \
 && chmod -R 777 /opt/tomcat9 \
+&& cd / \
 && cp -Rf server.xml /opt/tomcat9/conf/ \
 && cd /opt/tomcat9/bin \
 && ./startup.sh \
